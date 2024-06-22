@@ -1,0 +1,17 @@
+Gomx-Version: 1.0.0
+---
+package main
+
+import (
+	"github.com/gomxapp/gomx"
+	_ "{{template "appName"}}/app/api"
+	"net/http"
+)
+
+func main() {
+	r := gomx.DefaultRouter()
+	s := gomx.NewServer(&http.Server{
+		Addr: "localhost:8081",
+	}, r)
+	_ = s.ListenAndServe()
+}
