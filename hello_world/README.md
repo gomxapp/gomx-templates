@@ -1,0 +1,16 @@
+# Welcome to your new GOMX app
+
+## Quick Start
+```shell
+go mod tidy
+go run main.go
+```
+
+## Recommended
+### Install Air for hot-reloading
+> https://github.com/air-verse/air
+
+### Use Tailwind watch mode
+```shell
+npx tailwindcss -i ./app/static/input.css -o ./app/static/output.css --watch
+```

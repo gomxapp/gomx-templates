@@ -2,7 +2,7 @@
 
 FROM golang:1.22
 
-WORKDIR /gomx_template_server
+WORKDIR /gomx-template-server
 
 COPY go.mod go.sum ./
 RUN go mod download

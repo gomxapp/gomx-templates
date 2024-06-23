@@ -1,10 +1,8 @@
-Gomx-Version: 1.0.0
----
 package main
 
 import (
 	"github.com/gomxapp/gomx"
-	// _ "{{template "appName"}}/app/api"
+	//_ "{{template "appName"}}/app/api"
 	"net/http"
 )
 
