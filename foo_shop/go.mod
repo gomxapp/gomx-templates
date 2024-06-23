@@ -1,4 +1,4 @@
-module gomx-examples.foo_shop
+module foo_shop
 
 go 1.22
 

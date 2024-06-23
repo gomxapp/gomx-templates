@@ -1,8 +1,8 @@
 package main
 
 import (
+	_ "foo_shop/app/api"
 	"github.com/gomxapp/gomx"
-	_ "gomx-examples.foo_shop/app/api"
 	"log"
 	"net/http"
 )

@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gomxapp/gomx"
-	_ "gomx-examples.project_template_server/app/api"
 	"net/http"
+	_ "project_template_server/app/api"
 )
 
 func main() {
