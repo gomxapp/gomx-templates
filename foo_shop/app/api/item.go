@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"gomx-examples.foo_shop/data"
+	"foo_shop/data"
 )
 
 func init() {

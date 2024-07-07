@@ -4,7 +4,7 @@ import (
 	"github.com/gomxapp/gomx"
 	"log"
 
-	"gomx-examples.foo_shop/data"
+	"foo_shop/data"
 
 	"net/http"
 	"strconv"
